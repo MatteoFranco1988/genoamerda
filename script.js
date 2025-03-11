@@ -1,5 +1,4 @@
-const apiKey = 'e2cb7742913ce6163cd0c3395d7faeef'; // Replace with your actual API key
-
+const apiKey = 'e2cb7742913ce6163cd0c3395d7faeef';
 // Fetch market data
 async function fetchMarketData() {
     try {
