@@ -3,16 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Trading Algorithm Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="dashboard">
-        <h1>Welcome to the Dashboard</h1>
-        <div id="content">
-            <!-- Dashboard content goes here -->
-        </div>
+        <!-- Header -->
+        <header>
+            <h1>Trading Algorithm Dashboard</h1>
+            <p>Real-Time Market Insights and Algorithm Performance</p>
+        </header>
+
+        <!-- Investment Overview -->
+        <section class="investment-overview">
+            <h2>Investment Overview</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Amount Invested</h3>
+                    <p id="amount-invested">$10,000</p>
+                </div>
+                <div class="card">
+                    <h3>Total ROI</h3>
+                    <p id="total-roi">+$1,500 (15%)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Overview -->
+        <section class="market-overview">
+            <h2>Market Overview</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Best Performer</h3>
+                    <p id="best-performer">Loading...</p>
+                </div>
+                <div class="card">
+                    <h3>Worst Performer</h3>
+                    <p id="worst-performer">Loading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Algorithm Performance -->
+        <section class="algorithm-performance">
+            <h2>Algorithm Performance</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Accuracy (Past 7 Days)</h3>
+                    <p id="accuracy">Loading...</p>
+                </div>
+                <div class="card">
+                    <h3>Profit/Loss</h3>
+                    <p id="profit-loss">Loading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Projections -->
+        <section class="market-projections">
+            <h2>Market Projections</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Next 30 Days</h3>
+                    <p id="projection-30">Loading...</p>
+                </div>
+                <div class="card">
+                    <h3>Next 60 Days</h3>
+                    <p id="projection-60">Loading...</p>
+                </div>
+                <div class="card">
+                    <h3>Next 90 Days</h3>
+                    <p id="projection-90">Loading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Improvements -->
+        <section class="improvements">
+            <h2>Improvements</h2>
+            <ul id="improvements-list">
+                <li>Retrain model with latest data.</li>
+                <li>Optimize risk management strategy.</li>
+            </ul>
+        </section>
+
+        <!-- Trading Controls -->
+        <section class="trading-controls">
+            <h2>Trading Controls</h2>
+            <button id="buy-button" disabled>Buy</button>
+            <button id="sell-button" disabled>Sell</button>
+        </section>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
